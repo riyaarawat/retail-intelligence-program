@@ -60,17 +60,6 @@ plt.savefig(
 plt.show()
 plt.close()
 
-# ----------------------------------------------------------
-# Insight
-#
-# A relatively small group of products contributes
-# a disproportionately large share of total revenue.
-# ----------------------------------------------------------
-
-# ==========================================================
-# Product Sales Volume Analysis
-# ==========================================================
-
 print("\n── Product Sales Volume Analysis ─────────────────")
 
 product_quantity = (
@@ -124,17 +113,6 @@ plt.savefig(
 plt.show()
 plt.close()
 
-# ----------------------------------------------------------
-# Insight
-#
-# Products with the highest sales volume are not always
-# the products generating the highest revenue.
-# ----------------------------------------------------------
-
-# ==========================================================
-# Product Performance Summary
-# ==========================================================
-
 print("\n── Product Performance Summary ───────────────────")
 
 product_summary = (
@@ -157,10 +135,6 @@ product_summary.to_csv(
 )
 
 print("\nProduct summary saved successfully.")
-
-# ==========================================================
-# Product Revenue Distribution
-# ==========================================================
 
 print("\n── Product Revenue Distribution ─────────────────")
 
@@ -189,23 +163,12 @@ plt.savefig(
 plt.show()
 plt.close()
 
-# ----------------------------------------------------------
 # Insight
-#
+'''
 # Product revenue is highly right-skewed.
 # Most products contribute relatively little revenue,
 # while a small number generate exceptionally high sales.
-# ----------------------------------------------------------
-
-# ==========================================================
-# Pareto Analysis (80/20 Rule)
-# ==========================================================
-
-print("\n── Pareto Analysis ─────────────────────────────")
-
-# ==========================================================
-# Pareto Analysis (80/20 Rule)
-# ==========================================================
+'''
 
 print("\n── Pareto Analysis ─────────────────────────────")
 
@@ -236,10 +199,6 @@ print(
     ].head(15)
 )
 
-# ==========================================================
-# Pareto Chart
-# ==========================================================
-
 fig, ax1 = plt.subplots(figsize=(12, 6))
 
 # Revenue bars
@@ -252,7 +211,6 @@ ax1.bar(
 ax1.set_xlabel("Products Ranked by Revenue")
 ax1.set_ylabel("Revenue")
 
-# Secondary Y-axis
 ax2 = ax1.twinx()
 
 ax2.plot(
@@ -297,17 +255,12 @@ print(
 )
 
 
-# ----------------------------------------------------------
 # Insight
-#
+'''
 # A relatively small percentage of products contributes
 # the majority of business revenue, consistent with the
 # Pareto Principle.
-# ----------------------------------------------------------
-
-# ==========================================================
-# ABC Analysis
-# ==========================================================
+'''# ----------------------------------------------------------'''
 
 print("\n── ABC Analysis ───────────────────────────────")
 
@@ -372,20 +325,12 @@ plt.savefig(
 plt.show()
 plt.close()
 
-# ==========================================================
-# Export Product Intelligence Outputs
-# ==========================================================
-
 pareto.to_csv(
     "data/processed/abc_analysis.csv",
     index=False
 )
 
 print("\nABC analysis saved successfully.")
-
-# ==========================================================
-# Key Insights
-# ==========================================================
 
 '''
 Key Insights
