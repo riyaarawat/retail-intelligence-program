@@ -1,0 +1,6 @@
+Segment,Description,TotalCustomers,AvgRecency,AvgFrequency,AvgMonetary,TotalRevenue
+At-Risk Customers,Inactive high-potential customers,825,368.88,4.94,1927.74,1590384.58
+Champions,Best customers,1289,19.72,17.15,9169.61,11819626.88
+Low-Value Customers,"Low spend, infrequent buyers",1910,387.87,1.27,449.85,859205.2
+Loyal Customers,Frequent repeat buyers,1413,71.13,5.46,1920.56,2713749.35
+Potential Loyalists,Recent customers with growth potential,441,27.97,1.46,888.52,391838.26

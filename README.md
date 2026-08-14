@@ -27,3 +27,12 @@ retail-intelligence-system/
 ├── sql/           # SQL queries and schema
 ├── reports/       # Charts, figures, and findings
 └── README.md
+
+## Project Status
+
+In Progress
+
+## Author
+
+**Riya Rawat**  
+[LinkedIn](#www.linkedin.com/in/riyarawat2003) | [GitHub](#https://github.com/riyaarawat)

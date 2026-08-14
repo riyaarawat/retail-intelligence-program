@@ -1,0 +1,6 @@
+Cluster,ClusterName,TotalCustomers,AvgRecency,AvgFrequency,AvgMonetary,TotalRevenue,RevenueShare (%)
+0,Regular Customers,3575,75.27,5.23,1920.56,6865989.47,39.52
+1,Dormant Customers,1922,470.7,2.16,737.17,1416844.943,8.15
+2,Elite VIP Customers,4,3.5,212.5,428612.0,1714447.99,9.87
+3,High-Value Loyal Customers,24,22.46,119.79,98956.85,2374964.382,13.67
+4,Loyal Premium Customers,353,25.78,29.47,14171.55,5002557.483,28.79
